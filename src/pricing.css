@@ -72,6 +72,7 @@ body {
 
 @media screen and (min-width: 360px) {
 
+
     .nav-btn:hover {
         .nav-btn:hover {
             background-image: linear-gradient(to left, rgb(255, 152, 0), rgb(233, 30, 99));
