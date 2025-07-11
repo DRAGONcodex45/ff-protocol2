@@ -69,7 +69,13 @@ body {
 
 @media screen and (min-width: 360px) {
 
-    
+    .navbar {
+        height: 50px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
 
 
     .menu-container .menu li a {
@@ -898,6 +904,15 @@ body {
 
 
 @media screen and (min-width: 995px) {
+
+     .navbar {
+        height: 70px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
     #kol-hero-section {
         display: flex;
         flex-direction: row;
