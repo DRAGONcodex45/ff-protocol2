@@ -421,11 +421,11 @@ nav ul.menu li a:hover {
 @media screen and (min-width: 360px) {
 
 .navbar {
-  height: 50px;
+  height: 55px;
 }
 
 .logo img {
-  height: 30px;
+  height: 33px;
 }
 
 
@@ -2367,10 +2367,11 @@ nav ul.menu li a:hover {
   .navbar {
     max-width: 900px;
     margin: 0 auto;
+    height: 70px;
   }
 
   .logo img {
-    height: 48px;
+    height: 40px;
   }
 
   #hero-section {

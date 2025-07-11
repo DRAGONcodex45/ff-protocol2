@@ -72,6 +72,15 @@ body {
 
 @media screen and (min-width: 360px) {
 
+     .navbar {
+        height: 55px;
+    }
+
+    .logo img {
+        height: 33px;
+    }
+
+
 
     .nav-btn:hover {
         .nav-btn:hover {
@@ -628,6 +637,16 @@ body {
 
 
 @media screen and (min-width: 995px) {
+
+     .navbar {
+        height: 70px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+
     #pricing-hero-section {
         display: flex;
         flex-direction: row;
