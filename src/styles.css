@@ -1718,6 +1718,10 @@ nav ul.menu li a:hover {
   }
 
 
+  .footer-icon {
+    width: 20px;
+  }
+
   .footer-links li:hover {
     color: rgb(255, 152, 0);
     cursor: pointer;
