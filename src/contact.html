@@ -55,6 +55,46 @@
             display: none !important;
         }
 
+
+        .chat-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            z-index: 9999;
+        }
+
+        .chat-btn {
+            width: 50px;
+            height: 50px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            animation: pulse 2.5s infinite;
+        }
+
+        .chat-btn:hover {
+            transform: scale(1.15);
+        }
+
+        .telegram {
+            border: 1px solid #0088cc;
+            animation-delay: 0s;
+        }
+
+        .whatsapp {
+            border: 2px solid #25d366;
+            animation-delay: 1s;
+        }
+
         @media screen and (min-width: 360px) {
 
 
@@ -259,7 +299,7 @@
             textarea {
                 resize: none;
             }
-            
+
             textarea:focus {
                 border: none;
                 outline: none;
@@ -374,6 +414,12 @@
             .footer-wrapper {
                 margin: 4rem 0 0 0;
             }
+
+            .chat-btn img {
+                width: 28px;
+                height: 28px;
+            }
+
         }
 
 
@@ -575,6 +621,12 @@
                 font-size: 1rem;
             }
 
+             .chat-btn img {
+            width: 35px;
+            height: 35px;
+        }
+
+
 
         }
 
@@ -763,7 +815,7 @@
                 <a href="https://x.com/FF_Protocol" target=_blank>
                     <img id="footer-icon" src="icons8-linkedin-50.png" alt="linkedin white icon">
                 </a>
-                  <a href="https://t.me/ff_protocol" target=_blank>
+                <a href="https://t.me/ff_protocol" target=_blank>
                     <img id="footer-icon" src="icons8-telegram-logo-50.png" alt="linkedin white icon">
                 </a>
             </div>
@@ -794,12 +846,14 @@
 
 
 
-
-
-
-
-
-
+    <div class="chat-widget">
+        <a href="https://t.me/Kiraprotocol" target="_blank" class="chat-btn telegram">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="chat-btn whatsapp">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+    </div>
 
 
 

@@ -335,6 +335,46 @@ nav ul.menu li a:hover {
   }
 }
 
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;
+}
+
+.chat-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  animation: pulse 2.5s infinite;
+}
+
+
+.chat-btn:hover {
+  transform: scale(1.15);
+}
+
+.telegram {
+  border: 1px solid #0088cc;
+  animation-delay: 0s;
+}
+
+.whatsapp {
+  border: 2px solid #25d366;
+  animation-delay: 1s;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 850px) {
@@ -420,13 +460,13 @@ nav ul.menu li a:hover {
 
 @media screen and (min-width: 360px) {
 
-.navbar {
-  height: 55px;
-}
+  .navbar {
+    height: 55px;
+  }
 
-.logo img {
-  height: 33px;
-}
+  .logo img {
+    height: 33px;
+  }
 
 
   #hero-section {
@@ -578,7 +618,7 @@ nav ul.menu li a:hover {
     padding: 3rem 0;
     color: #ffffff;
     font-size: 1rem;
-   
+
 
   }
 
@@ -593,7 +633,7 @@ nav ul.menu li a:hover {
     color: #ffffff;
   }
 
-  
+
   h3 {
     text-transform: uppercase;
     font-size: 1.45rem;
@@ -698,7 +738,7 @@ nav ul.menu li a:hover {
     color: #ffffff;
     padding: 2rem 0;
     text-transform: uppercase;
-  } 
+  }
 
   .choose-bigtext {
     text-align: center;
@@ -1741,7 +1781,10 @@ nav ul.menu li a:hover {
   }
 
 
-
+  .chat-btn img {
+    width: 28px;
+    height: 28px;
+  }
 
 
 
@@ -2873,6 +2916,11 @@ nav ul.menu li a:hover {
     margin: 0 auto;
   }
 
+  .chat-btn img {
+    width: 35px;
+    height: 35px;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -2913,7 +2961,7 @@ nav ul.menu li a:hover {
   }
 
   .hero-btn {
-   padding: 5px;
+    padding: 5px;
   }
 
   .hero-btn,
@@ -3114,7 +3162,7 @@ nav ul.menu li a:hover {
   }
 
 
- 
+
 
   .affiliate-action-btn {
     width: 250px;
